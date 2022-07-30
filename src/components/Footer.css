@@ -1,0 +1,129 @@
+.footer-container {
+    background-color: rgb(12, 11, 11);
+    height: 850px;
+    width: 100%;
+    text-align: center; 
+    padding-top: 6rem;
+    margin-top: 6rem;
+}
+.footer-items {
+    color: white;
+}
+.footer-items p {
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+    font-size: 2rem;
+}
+.email input {
+    margin-right: .9rem;
+    width: 330px;
+    border-radius: 5px;
+    height: 56px;
+    color: gray;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.email button {
+    width: 200px;
+    height: 54px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: .3s ease-in;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.email button:hover {
+    background-color: white;
+    color: black;
+}
+.footer-info {
+    display: flex;
+    justify-content: center;
+}
+.info-block {
+    text-align: start;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-top: 7rem;
+}
+.info-block h1 {
+    margin-bottom: 2rem;
+}
+.info-block h4 {
+    margin-bottom: .7rem;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.8rem;
+    align-items: center;
+}
+.one-bottom {
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.two-bottom, .icons {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    .footer-items h1 {
+        font-size: 2.5rem;
+    }
+    .footer-items p {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .footer-container {
+        height: 1884px;
+    }
+    .footer-info {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .info-block {
+        text-align: center;
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .footer-items h1 {
+        font-size: 2rem;
+    }
+    .footer-items p {
+        font-size: 1.8rem;
+    }
+    .email button {
+        margin-top: 1rem;
+    }
+    .email input {
+        margin: 0;
+    }
+    .footer-container {
+        height: 2020px;
+    }
+    .info-block {
+        margin-top: 5rem;
+    }
+    .info-block h1 {
+        font-size: 2.6rem;
+    }
+    .info-block h4 {
+        font-size: 1.7rem;
+    }
+}
